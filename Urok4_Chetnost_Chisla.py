@@ -1,4 +1,5 @@
-a = int(input('Введи число'))
+a = int(input('Введи число\n'))
+
 
 def chetnost(a):
     c = int(a) % 2

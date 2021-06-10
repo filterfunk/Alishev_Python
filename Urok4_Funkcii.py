@@ -2,7 +2,8 @@ name = int(input('Введи имя'))
 height = int(input('Введи рост в сантиметрах'))
 weight = int(input('Введи вес'))
 
-height = float(height)/100
+height = float(height) / 100
+
 
 def bmi_calc(name, height, weight):
     bmi = float(weight) / (float(height) ** 2)
